@@ -8,3 +8,7 @@
 
 # Terraform goes in its own repository
 /TaskBoard-Terraform/
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
