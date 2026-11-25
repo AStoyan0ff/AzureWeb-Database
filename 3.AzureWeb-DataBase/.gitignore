@@ -1,0 +1,12 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+
+# Visual Studio local files
+.vs/
+*.user
+*.suo
+
+# Terraform goes in its own repository
+/TaskBoard-Terraform/
