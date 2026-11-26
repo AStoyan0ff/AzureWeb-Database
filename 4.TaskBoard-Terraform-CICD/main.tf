@@ -24,6 +24,10 @@ resource "random_integer" "suffix" {
 resource "azurerm_resource_group" "taskboard" {
   name     = "rg-taskboard-${random_integer.suffix.result}"
   location = "Spain Central"
+
+  tags = {
+    managed_by = "terraform"
+  }
 }
 
 variable "sql_admin_password" {
